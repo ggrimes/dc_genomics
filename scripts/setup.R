@@ -5,7 +5,7 @@ install.packages("../packages/xfun_0.16.tar.gz",repos=NULL)
 # load swirl package
 library(swirl)
 # install swirl courses
-swirl::install_course("../swirlpackages/R Programming")
-swirl::install_course("../swirlpackages/"Getting and Cleaning Data")
-swirl::install_course("../swirlpackages/Exploratory_Data_Analysis")
+swirl::install_course(swc_path="../swirlpackages/R_Programming.swc")
+swirl::install_course(swc_path="../swirlpackages/Getting_and_Cleaning_Data.swc")
+swirl::install_course(swc_path="../swirlpackages/Exploratory_Data_Analysis.swc")
 

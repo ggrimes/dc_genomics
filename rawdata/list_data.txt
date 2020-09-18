@@ -1,0 +1,4 @@
+snp_genes<-c("OXTR", "ACTN3", "AR", "OPRM1")
+snps <- c('rs53576', 'rs1815739', 'rs6152', 'rs1799971')
+snp_chromosomes <- c('3', '11', 'X', '6')
+snp_positions <- c(8762685, 66560624, 67545785, 154039662)

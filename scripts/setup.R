@@ -1,11 +1,15 @@
-install.packages("packages/swirl_2.4.5.tar.gz",repos=NULL)
+if(!require(swirl)){
+  install.packages("packages/swirl_2.4.5.tar.gz",repos=NULL)
+  library(swirl)
+}
+
 
 # load swirl package
 library(swirl)
 # install swirl courses
-swirl::install_course(swc_path="swirlpackages/R_Programming.swc")
-swirl::install_course(swc_path="swirlpackages/Getting_and_Cleaning_Data.swc")
-swirl::install_course(swc_path="swirlpackages/Exploratory_Data_Analysis.swc")
+install_course(swc_path="swirlpackages/R_Programming.swc",force=TRUE)
+install_course(swc_path="swirlpackages/Getting_and_Cleaning_Data.swc",force=TRUE)
+install_course(swc_path="swirlpackages/Exploratory_Data_Analysis.swc",force=TRUE)
 
 
 # swirl help
